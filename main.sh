@@ -59,7 +59,7 @@ while true; do
     read -p "Enter your choice: " choice
 
     case $choice in
-        1) create_student ;;
+        1) Create_student;;
         2) view_students ;;
         3) delete_student ;;
         4) update_student ;;
